@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "VeritasWatermarkRemover",
+	"description": "",
+	"version": "1.0",
+	"author": "z3ntu",
+	"homepage_url": "https://z3ntu.github.io",
+	"content_scripts": [ {
+		"js": [ "js/jquery-2.2.3.min.js", "js/veritaswatermark.js" ],
+		"matches": ["*://www.veritas.at/*"],
+		"run_at": "document_end"
+	}],
+	"permissions": [
+		"*://www.veritas.at/*"
+	]
+}
