@@ -1,10 +1,10 @@
 {
 	"manifest_version": 2,
 	"name": "VeritasWatermarkRemover",
-	"description": "",
-	"version": "1.0",
+	"description": "Removes the watermark from Veritas' \"Basic HTML Version\" of books",
+	"version": "1.1",
 	"author": "z3ntu",
-	"homepage_url": "https://z3ntu.github.io",
+	"homepage_url": "https://z3ntu.xyz",
 	"content_scripts": [ {
 		"js": [ "js/jquery-2.2.3.min.js", "js/veritaswatermark.js" ],
 		"matches": ["*://www.veritas.at/*"],
